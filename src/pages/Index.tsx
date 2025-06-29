@@ -139,6 +139,7 @@ const Index = () => {
               <CardContent className="p-6">
                 <div className="flex items-center justify-between">
                   <div>
+                    {/* this is index  */}
                     <p className="text-sm text-gray-600 font-medium">Total Tasks</p>
                     <p className="text-2xl font-bold text-gray-800">{taskCounts.total}</p>
                   </div>
